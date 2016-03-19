@@ -6,10 +6,10 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Example Material
+  m_Name: Cheeks
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _DETAIL_MULX2 _EMISSION _NORMALMAP
-  m_LightmapFlags: 1
+  m_ShaderKeywords: _DETAIL_MULX2 _NORMALMAP
+  m_LightmapFlags: 5
   m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
@@ -19,21 +19,21 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 3b9278895923386408195949d00ce5c3, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: 3b9278895923386408195949d00ce5c3, type: 3}
+          m_Texture: {fileID: 2800000, guid: 55f3119a9a53b2c46bcddba18a4ec053, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _DetailNormalMap
         second:
-          m_Texture: {fileID: 2800000, guid: 7425fe2e09bb9184ba8e7845901f842b, type: 3}
+          m_Texture: {fileID: 2800000, guid: 9efa2649646d1bd42af99e3e3080fb47, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -93,6 +93,10 @@ Material:
         second: 0.5
       data:
         first:
+          name: _Shininess
+        second: 0.078125
+      data:
+        first:
           name: _Parallax
         second: 0.02
       data:
@@ -102,7 +106,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 0.56
+        second: 0.57
       data:
         first:
           name: _BumpScale
@@ -126,13 +130,17 @@ Material:
       data:
         first:
           name: _Metallic
-        second: 0.658
+        second: 0.336
     m_Colors:
       data:
         first:
           name: _EmissionColor
-        second: {r: 0.004, g: 0, b: 0, a: 1}
+        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _Color
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
