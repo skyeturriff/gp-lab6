@@ -85,6 +85,22 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &40060014 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 174650, guid: 7504046ca5f05974899b60fa27a67a4d, type: 2}
+  m_PrefabInternal: {fileID: 600225886}
+--- !u!114 &40060015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 40060014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35511639f3fcdd4a9da5c1f2b897332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickingCamera: {fileID: 927120369}
 --- !u!1001 &600225886
 Prefab:
   m_ObjectHideFlags: 0
@@ -124,10 +140,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11411724, guid: 7504046ca5f05974899b60fa27a67a4d, type: 2}
-      propertyPath: pickingCamera
-      value: 
-      objectReference: {fileID: 927120369}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7504046ca5f05974899b60fa27a67a4d, type: 2}
   m_IsPrefabParent: 0

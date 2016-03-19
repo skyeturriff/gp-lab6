@@ -17,7 +17,7 @@ public class Picking : MonoBehaviour
             RaycastHit hit;
             bool success = Physics.Raycast(pickingRay, out hit);
         
-            if(success) 
+            if(success && hit.collider.gameObject.tag.Equals("Tooth")) 
             {
                 // Make object dissapear if hit
                 hit.collider.gameObject.SetActive(false);
